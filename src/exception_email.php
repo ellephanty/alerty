@@ -45,7 +45,5 @@ function exception_email($exception, $subject = 'Exception report')
 
     if (!getenv('EMAIL_EXCEPTION_ENVIRONMENT') || getenv('APP_ENVIRONMENT') == getenv('EMAIL_EXCEPTION_ENVIRONMENT')) {
         $mail->send();
-    } else {
-        echo $html;
     }
 }
