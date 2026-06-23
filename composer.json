@@ -1,6 +1,7 @@
 {
   "name": "ellephanty/alerty",
   "description": "Email exception notification",
+  "version": "0.0.1",
   "type": "library",
   "license": "MIT",
   "scripts": {
