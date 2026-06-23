@@ -11,6 +11,6 @@ class EmailExceptionTest extends PHPUnit_Framework_TestCase
 {
     public function testEmail()
     {
-        exception_email(new Exception('test'), 'Error test');
+        exception_email(new Exception('test'), 'Error test', ['myAttribute' => 'value']);
     }
 }
