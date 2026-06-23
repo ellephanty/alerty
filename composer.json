@@ -1,0 +1,30 @@
+{
+  "name": "ellephanty/alerty",
+  "description": "Email exception notification",
+  "type": "library",
+  "license": "MIT",
+  "scripts": {
+    "test": "phpunit"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ellephanty\\Alerty\\": "src/"
+    },
+    "files": [
+      "src/exception_email.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Cristian Emanuelle Guzmán Suárez",
+      "email": "cristian.guzman.contacto@quimica.unam.mx"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "6.6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.7",
+    "vlucas/phpdotenv": "2.6"
+  }
+}
